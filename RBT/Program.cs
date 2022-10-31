@@ -70,6 +70,7 @@ namespace RBT
                 // 3 rounds per object(form) or release (drop), than new object 
                 do
                 {
+                    Console.Clear();
                     count += 1;
                     roundPerObject += 1;
 
