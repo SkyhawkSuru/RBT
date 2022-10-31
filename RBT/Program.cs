@@ -10,6 +10,7 @@ namespace RBT
     {
         static void Main(string[] args)
         {
+            Console.Title = "RBT By SkyhawkSuru ~ Github";
             // ------------------Variablen ------------------------           
             int MaxLenghtOfObject = 4;
             int gridSaveZone = 3; // no prove if there are still objects
@@ -54,7 +55,7 @@ namespace RBT
                 int roundPerObject = 0;
                 bool notInGrid = false;
                 controlFormProperties[0] = 0;
-
+                
                 Console.Clear();
 
                 // Random lenght of form, direction
